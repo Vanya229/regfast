@@ -1,0 +1,319 @@
+.hud_container {
+    width: 1900px;
+    height: 1800px;
+    position: fixed;
+    top: 50px;
+    right: -30px;
+    padding: 5px;
+}
+
+.hud_container .gun_container {
+    position: fixed;
+    margin-top: 62px;
+    margin-left: 1770px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+}
+
+.hud_container .ammo {
+    display: inline-block;
+    position: fixed;
+    width: 50px;
+    color: #fff;
+    font-family: gilroy-semibold;
+    text-align: center;
+    font-size: 11px;
+    margin-left: -15px;
+    margin-top: -1px;
+}
+
+.hud_container .cefstudio {
+    width: max-content;
+}
+
+.hud_container .money-icon {
+    position: fixed;
+    margin-top: 103px;
+    right: 240px;
+}
+
+.hud_container .money {
+    display: inline-block;
+    position: fixed;
+    top: 156px;
+    right: 258px;
+    color: #FFF;
+    font-family: gilroy-semibold;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hud_container .guns {
+    position: fixed;
+    margin-top: -40px;
+    margin-left: -55px;
+}
+
+.hud-svg {
+    position: fixed;
+    margin-top: 5px;
+    right: 10px;
+}
+
+.hud_container .icon {
+    position: fixed;
+    margin-top: -2px;
+    margin-left: -18px;
+}
+
+.hud_container #health {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 1520px;
+}
+
+.hud_container .hp-icon {
+    position: fixed;
+    margin-top: -17px;
+    right: 215px;
+}
+.hud_container progress.hpbar {
+    display: block;
+    border-radius: 15px;
+    width: 120px;
+    height: 11px;
+    position: relative;
+}
+.hud_container progress.hpbar::-webkit-progress-bar {
+    background-color: rgba(0, 0, 0, 0.20);
+    border-radius: 15px;
+    border: 1px solid #D90101;
+}
+.hud_container progress.hpbar::-webkit-progress-value {
+    background-color: rgb(204, 62, 62);
+    background-image: linear-gradient(#F00, #F00);
+    border-radius: 15px;
+}
+.hud_container progress.hpbar::-moz-progress-bar {
+    background-color: rgb(204, 62, 62);
+    background-image: linear-gradient(#F00, #F00);
+    border-radius: 15px;
+}
+.hud_container progress.armorbar {
+    display: block;
+    width: 140px;
+    height: 11px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.hud_container #armor {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 1500px;
+}
+
+.hud_container .arm-icon {
+    position: fixed;
+    margin-top: -17px;
+    right: 215px;
+}
+.hud_container progress.armorbar::-webkit-progress-bar {
+    background-color: rgba(0, 0, 0, 0.20);
+    border-radius: 15px;
+    border: 1px solid #758376;
+}
+.hud_container progress.armorbar::-webkit-progress-value {
+    background-color: rgb(204, 62, 62);
+    background-image: linear-gradient(#8C9E8E, #8C9E8E);
+    border-radius: 15px;
+}
+.hud_container progress.armorbar::-moz-progress-bar {
+    background-color: rgb(204, 62, 62);
+    background-image: linear-gradient(#8C9E8E, #8C9E8E);
+    border-radius: 15px;
+}
+
+.hud_container #food {
+    position: absolute;
+    margin-top: 74px;
+    margin-left: 1480px;
+}
+.hud_container .food-icon {
+    position: fixed;
+    margin-top: -17px;
+    right: 215px;
+}
+.hud_container progress.foodbar {
+    display: block;
+    border-radius: 15px;
+    width: 160px;
+    height: 11px;
+    position: relative;
+}
+.hud_container progress.foodbar::-webkit-progress-bar {
+    background-color: rgba(0, 0, 0, 0.20);
+    border-radius: 15px;
+    border: 1px solid #D08412;
+}
+.hud_container progress.foodbar::-webkit-progress-value {
+    background-color: rgb(204, 62, 62);
+    background-image: linear-gradient(#FFA216, #FFA216);
+    border-radius: 15px;
+}
+.hud_container progress.foodbar::-moz-progress-bar {
+    background-color: rgb(204, 62, 62);
+    background-image: linear-gradient(#FFA216, #FFA216);
+    border-radius: 15px;
+}
+
+.speedometer_container {
+    position: absolute;
+    bottom: 0.5vh;
+    right: 1vh;
+    width: 24vh;
+    height: unset;
+}
+
+.speed_count {
+  display: inline-block;
+  position: fixed;
+  width: 10%;
+  text-align: center;
+  font-size: 5.5vh;
+  color: #ffffff;
+  font-family: gilroy-bolditalic;
+  font-weight: 800;
+  top: 86vh;
+  right: 9vh;
+}
+
+.speed_count .count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.speed_count .type {
+  text-transform: uppercase;
+  font-size: 1.5vh;
+  font-weight: 900;
+  text-align: center;
+  opacity: 0.6;
+  margin-top: -1.2vh;
+}
+
+.speed_count .bg {
+  opacity: 0.19;
+}
+
+.speed {
+  position: absolute;
+  bottom: -0.5vh;
+  right: 3.5vh;
+  width: 24vh;
+  height: unset;
+}
+
+.speed path {
+  will-change: auto;
+  stroke-width: 0.8vh;
+  stroke-miterlimit: round;
+  -webkit-transition: stroke-dashoffset 450ms ease-in-out;
+  transition: stroke-dashoffset 450ms ease-in-out;
+}
+
+.speed path.bg {
+  stroke: #00000063;
+}
+
+.speed path.meter {
+  stroke: white;
+}
+
+.fuel {
+  position: absolute;
+  bottom: 1vh;
+  right: 28vh;
+  width: 7vh;
+  height: unset;
+}
+
+.fuel path {
+  will-change: auto;
+  stroke-width: 1.1vh;
+  stroke-miterlimit: round;
+  -webkit-transition: stroke-dashoffset 850ms ease-in-out;
+  transition: stroke-dashoffset 850ms ease-in-out;
+}
+
+.fuel path.meter {
+  stroke: #00e9ee;
+}
+
+.icon_fuel {
+  width: 1.8vh;
+  position: absolute;
+  bottom: 3.4vh;
+  right: 30.5vh;
+}
+
+.icon_list {
+  width: 11vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  flex-direction: column;
+  bottom: 1.5vh;
+  right: -2.5vh;
+  display: flex;
+}
+
+.icon_list .engine {
+  width: 3.5vh;
+  padding: 5.5px;
+  margin: 4px;
+  border: 1.5px solid #5757577a;
+  background: #00000063;
+  box-shadow: 0px 0px 10px #00000063;
+  border-radius: 5px;
+}
+
+.icon_list .lamp {
+  width: 3.5vh;
+  padding: 5.5px;
+  margin: 4px;
+  border: 1.5px solid #5757577a;
+  background: #00000063;
+  box-shadow: 0px 0px 10px #00000063;
+  border-radius: 5px;
+}
+
+.icon_list .door {
+  width: 3.5vh;
+  padding: 5.5px;
+  margin: 4px;
+  border: 1.5px solid #5757577a;
+  background: #00000063;
+  box-shadow: 0px 0px 10px #00000063;
+  border-radius: 5px;
+}
+
+.icon_list .key {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  font-family: gilroy-semibold;
+  text-align: center;
+  font-size: 1.5vh;
+  color: white;
+  font-weight: 800;
+
+}

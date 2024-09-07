@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'gilroy-semibold';
+    src: local('gilroy-semibold'), local('gilroy-semibold'),
+        url('gilroy-semibold.ttf') format('truetype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gilroy-bolditalic';
+    src: local('gilroy-bolditalic'), local('gilroy-bolditalic'),
+        url('gilroy-bolditalic.ttf') format('truetype');
+    font-style: normal;
+}
