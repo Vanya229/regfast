@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'SolomonSans-Light';
+    src: local('SolomonSans-Light'), local('SolomonSans-Light'),
+        url('SolomonSans-Light.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gilroy-bolditalic';
+    src: local('gilroy-bolditalic'), local('gilroy-bolditalic'),
+        url('gilroy-bolditalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoMedium';
+    src: local('RobotoMedium'), local('RobotoMedium'), url('gothampro-light.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothampro-medium';
+    src: url('gothampro-medium.ttf');
+}

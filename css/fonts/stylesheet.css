@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'RobotoL';
+    src: local('RobotoL'), local('RobotoL'),
+        url('gothampro-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoB';
+    src: local('RobotoB'), local('RobotoB'),
+        url('RobotoB.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoMedium';
+    src: local('RobotoMedium'), local('RobotoMedium'),
+        url('gothampro-light.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TEST';
+    src: local('TEST'), local('TEST'),
+        url('gothampro-bold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BoldItalic';
+    src: url('gilroy-bolditalic.ttf');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat.ttf');
+}
+
+@font-face {
+    font-family: 'gothampro-light';
+    src: url('gothampro-light.ttf');
+}
+@font-face {
+    font-family: 'ProximaNova-Light';
+    src: url('ProximaNova-Light.ttf');
+}
+@font-face {
+    font-family: 'gothampro-medium';
+    src: url('gothampro-medium.ttf');
+}
